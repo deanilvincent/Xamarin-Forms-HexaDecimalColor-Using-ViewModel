@@ -16,22 +16,5 @@ namespace ColorSelectorApp.Views
         {
             InitializeComponent();
         }
-
-        //private void EntryHexValue_TextChanged(object sender, TextChangedEventArgs e)
-        //{
-        //    if (EntryHexValue.Text.Length > 6)
-        //    {
-        //        EntryHexValue.Text = EntryHexValue.Text.Remove(EntryHexValue.Text.Length - 1);
-        //    }
-
-        //    if (EntryHexValue.Text == null || EntryHexValue.Text == "")
-        //    {
-        //        LabelTextPreviewer.BackgroundColor = Color.FromHex("#000000");
-        //    }
-        //    else
-        //    {
-        //        LabelTextPreviewer.BackgroundColor = Color.FromHex("#" + EntryHexValue.Text);
-        //    }
-        //}
     }
 }
